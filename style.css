@@ -5,6 +5,15 @@ body, html {
   line-height: 1.8;
 }
 
+
+.w3-bar-item {
+  height: 100%;
+  color: #ffffff;
+  line-height: 1.8;
+}
+
+
+
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
@@ -17,12 +26,21 @@ body, html {
 .bgimg-1 {
   background-image: url('assets/img/DSCF2165.JPG');
   min-height: 100%;
+  background-position: center top 46%;
 }
+
+/* @media screen and (max-width : 768px) {
+  .bgimg-1 {
+    background-position: center;
+}
+} */
 
 /* Second image (Portfolio) */
 .bgimg-2 {
   background-image: url("assets/img/DSCF2169\ \(1\).JPG");
-  min-height: 40px;
+  min-height: 400px;
+  background-position: center top 30%;
+
 }
 
 /* Third image (Contact) */
