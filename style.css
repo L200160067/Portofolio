@@ -26,10 +26,10 @@ body, html {
 .bgimg-1 {
   background-image: url('assets/img/DSCF2165.JPG');
   min-height: 100%;
-  background-position: center top 46%;
+  background-position: center top 47%;
 }
 
-/* @media screen and (max-width : 768px) {
+/* @media screen and (min-width : 768px) {
   .bgimg-1 {
     background-position: center;
 }
